@@ -16,7 +16,8 @@ export const Styles: Stylesheet = {
   navItem: {
     paddingRight: 40,
     paddingLeft: 40,
-    fontFamily: 'rubik'
+    fontFamily: 'rubik',
+    fontSize: 16
   },
   contentContainer: {
     display: 'flex',
@@ -92,5 +93,8 @@ export const Styles: Stylesheet = {
     fontSize: 20,
     color: '#4F5665',
     marginBottom: 48
+  },
+  landingContainer: {
+    height: window.innerHeight,
   }
 }

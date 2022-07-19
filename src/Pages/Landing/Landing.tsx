@@ -51,7 +51,7 @@ function Contact() {
       {ContactDetail.map(item => {
         return (
           <Button type='origin' onClick={item.onPress} key={item.name}>
-              <img src={item.image} width={'30em'} height={'30em'} className='contactItem'/>
+            <img src={item.image} width={'30em'} height={'30em'} className='contactItem'/>
           </Button>
         )
       })}
